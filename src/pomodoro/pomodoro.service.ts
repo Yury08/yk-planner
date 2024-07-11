@@ -1,5 +1,5 @@
 import { Injectable, NotFoundException } from '@nestjs/common'
-import { PrismaService } from 'src/prisma.service'
+import { PrismaService } from '../prisma.service'
 import { PomodoroRoundDto, PomodoroSessionDto } from './dto/pomodoro.dto'
 
 @Injectable()
